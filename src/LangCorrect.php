@@ -2899,7 +2899,7 @@ class LangCorrect
 		return $s;
 	}
 
-	private function _word(array &$a)
+	private function _word(array $a)
 	{
 		$word = $a[0];
 		#var_export($a);
