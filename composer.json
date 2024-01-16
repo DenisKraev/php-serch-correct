@@ -7,7 +7,8 @@
             "email": "rin-nas@ya.ru"
         }
     ],
-    "license": "CC BY-SA 3.0",
+    "type": "package",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "LangCorrect\\": "src/"
