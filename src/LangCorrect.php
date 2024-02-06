@@ -2891,7 +2891,7 @@ class LangCorrect
                                       ~sxSX', array($this, '_entry'), $s);
 	}
 
-	private function _entry(array &$a)
+	private function _entry(array $a)
 	{
 		$entry =& $a[0];
 		$s = strtr($entry, $this->table[0]);
